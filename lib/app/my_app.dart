@@ -17,7 +17,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(primarySwatch: Colors.blueGrey),
       routes: {
         HOME: (context) => ContactList(),
-        CONTACT_FORM: (context) => const ContactFomr(),
+        CONTACT_FORM: (context) => const ContactForm(),
       },
     );
   }

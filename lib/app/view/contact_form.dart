@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
-class ContactFomr extends StatelessWidget {
-  const ContactFomr({super.key});
+class ContactForm extends StatelessWidget {
+  const ContactForm({super.key});
 
   @override
   Widget build(BuildContext context) {

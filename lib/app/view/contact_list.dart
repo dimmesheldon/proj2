@@ -45,7 +45,7 @@ class ContactList extends StatelessWidget {
       ),
       body: ListView.builder(
         itemCount: lista.length,
-        //itemBuilder constroi os intens da listagit
+        //itemBuilder constroi os intens da lista
         itemBuilder: (context, i) {
           var contato = lista[i];
           return ListTile(
